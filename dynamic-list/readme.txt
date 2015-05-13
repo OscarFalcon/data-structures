@@ -3,7 +3,7 @@ Generalized Dynamic List
 This is a dynamic list implementation. Most dynamic lists out there are hard
 coded to represent arrays of a fixed data type, with the most common being a 
 list of ints. Unfortunately, this method of hard coding to a specific type
-is not very helpfull in terms of reuseability. Here, a generalized type dynamic
+is not very helpful in terms of reusability. Here, a generalized type dynamic
 list is implemented that allows arbitrary data types as elements of the array. 
 Elements can be ints, doubles, longs, arrays of chars, structs, etc. The 
 specific type (actually size of the type in bytes) is specified at run time, 
